@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)), url(agac2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.navbar{
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    
+    
+    
+}
+.logo{
+    font-size: 3rem;
+    color: orange;
+}
+.navbar ul {
+    display: inline-flex;
+    gap: 3rem;
+    list-style: none;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+.navbar ul li a:hover{
+    color: orange;
+    transition: all 0.5s;
+}
+
+.search2{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    border-right: none;
+    outline: none;
+    border: 2px solid orange;
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+
+}
+.btn{
+ 
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+    border: 2px solid orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.btn:focus{
+    outline: none;
+}
+.search2:focus{
+    outline: none;
+}
+.container{
+ width:1200px;
+ height: auto;
+ color: black;
+ margin: 5% auto;
+ color: #fff;
+ font-family: sans-serif;
+ display: flex;
+ justify-content: space-around;
+}
+.text h1 span{
+    color: orange;
+}
+.container button{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    background-color: orange;
+    color: #fff;
+    transition: all 0.5s;
+
+}
+.container button:hover{
+    background-color: #fff;
+    color: orange;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.mail{
+    width: 350px;
+    height:480px;
+    background-color: black;
+    border-radius: 10px;
+    
+   
+}
+.mail h2{
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    border: 1px solid orange;
+    background-color: orange;
+    text-align: center;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    margin: 2.5rem ;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.mail button{
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    background-color: orange;
+    padding: auto;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    margin: 2.5rem ;
+    margin-bottom: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.mail button:hover{
+    color:orange;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.form{
+    margin: auto;
+    
+}
+.form input{
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    margin:0.5rem 2.5rem ;
+    padding: auto;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom:1px solid orange;
+
+}
+.form p{
+    text-align: center;
+}
+.icons{
+    margin-left: 3rem;
+    font-size: 2.5rem;
+}
+.icons i:hover{
+    cursor: pointer;
+    color: orange;
+    transition: color 0.5s;
+}
+.sign{
+    text-decoration: none;
+    cursor: pointer;
+    color: orange;
+}
+@media  (max-width:1200px) {
+    .main{
+        height: 150vh;
+    }
+    .navbar ul{
+        display: block;
+    }
+    .container{
+        width: 500px;
+        display: block;
+        margin:5% auto ;
+    }
+    .text{
+        margin: 5%;
+        
+    }
+    .text h1{
+        font-size: 25px;
+    }
+    .tx{
+        font-size: 15px;
+    }
+    .text button{
+        width: 100px;
+        font-size: 15px;
+    }
+    .search2{
+        width: 100px;
+    }
+    .btn{
+        width: 50px;
+        font-size: 0.5rem;
+    }
+    .mail{
+        padding-top: 1rem;
+    }
+}
+@media (max-width:500px){
+    .navbar{
+        display: flex;
+        gap: 10px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .navbar ul li a{
+        font-size: 10px;
+        margin-top: 5%;
+    }
+    .container{
+        width: 300px;
+        margin: 5% auto;
+    }
+    .text h1{
+        font-size: 15px;
+    }
+    .tx{
+        font-size: 10px;
+    }
+    .text button{
+        width: 50px;
+        font-size: 15px;
+    }
+    .search2{
+        width: 100px;
+    }
+    .btn{
+        width: 50px;
+        font-size: 0.5rem;
+    }
+    .mail{
+        width: 350px;
+        padding-top: 1rem;
+    }
+    
+}
